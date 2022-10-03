@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="/images/logo4.jpeg">
+
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="flex">
+        <div class="nav-headers flex">
+            <img class="logo" src="/images/logo4.jpeg" alt="">
+
+            <span class="fav flex">
+                <h1>Favourites</h1>
+            </span>
+        </div>
+       
+        <div class="nav-components flex">
+            <form action="" class="flex">
+                  <input type="search" placeholder="search">
+                <button class="nav-button">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAjFJREFUSEvllsF100AQhv+RCAknnFvkJ8l2BTgVEDpwKoB0ECogqYBQAU4FqAOSCnAHcmw964hzQsFZDW+EcRTJ0q79EDmwR3t2vp2Zf2ZEeKJDT8SFMXg6jY9S0CvL4laa0twCjzzPud724bXgMI67tsIHAO/WA2gOcKBsnPccZ7zJIyrBN9HslEAfTZ0x02nHO/hkar8WPIniIYC3OSeXsDhQd3dXvV5vHoZhy97dPUJKg4Ld0HedExN4CZyPlIAbghq4rjuqchZFUZ9hBwx0xIbB7ztu+0IHfwRe1jSUSwK9XyR9iVDnRDLwbGdv9AeubPR0NX8EzqfYgjqsi7T4GIk8hf1t+ful7zoVgvxtUQSz6cV1WXh4OM1992C/LlMrsPQpE75mxhYf++12oEtx8f/JbDZASl+yiBhvPM+5qvKxAudFpRbJvklti04zte/sfTcR2QN4Gp8RZcMCvusYT7RS1FGclYsZ5x3POfvnEevK1ViNdV1RVLX07EsA2naoV7W+XI30sa6+pT7OTy4AY7VIDk3UvVSzDI8ugFu1SLq6e7WzWuAW1LFuVqewpXcFKseoTKbbaQiiQP38cb3aTs9fvAazbKd1o/HEdx3ZcJXnb+3jWwAy6fKrtBZu8gUiQ0AiE7WXjggpvU8uJBOTKJboP+eMKuHGEyr75iLug6lFNo+sNB2vq70p3Bi8ycIwgTcClkcW4KWUNwbOwWXplBTeKHirdtqkptvY/n8R/wIWNScuB3rgUwAAAABJRU5ErkJggg=="/>                </button>
+            </form>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAe9JREFUSEvtlt9RwkAQxr9lBniUe0nCG1YAVCB0IBWIFYgVqBWIFYgVSAdiBUIF8hbCy+EjMJNzLgl/EhLuLo7DOOM9wt7+vt297C7hRIdOxEUuMOe8guXyKhBdLr8wxhamARiDA+hq9QGgFsGmKJWapnBtcAS8AdDdg24CnQIYoFR60hWgBeau20Kh8AqgokjpAr7fYdXqSJV6JZjP510I8bznaAIhBhBiHPxG1ACRzEJ9a0N0zSxrcAx+FMzn8waEkPWU5wtEvSyHkcA+gLNIUJNZVigu5RwHz2YjEF0E93y/rUphVJK3CDxiltU2BieifWC2fa+qm/yfe560u1NFnRlxzIHvn7NqVb5c5eGuW0Oh8BkZZgrOBu/SPGG23VAS9wy458na1iHEO3OcllGN+QZ85HKWGJ276oj/wRrF/nupjrXJn9Q4bKmp7fPgcaX05g6z7aFGhrcm3PMuAcihEp4UeAyc+Pgz1eqIOAgg0YSSYDn+wl4rxC1zHNn0cx8+m/VA9Bg4SPT6bDAwBpHxShNTKYSc32HXMwDnjjT1IlFsTKY9rj5836g3KxUSTZlty2Vh996Ul37JQLn67HMTMzouKZFKlV4jsHQWm9M779qLwvbTVilL+z9Ydddr2SSAYnGou9L+vRrnyU7WnW9JuhMu8Y9GHQAAAABJRU5ErkJggg=="/>
+             <img src="/images/Mujeeb.JPG" alt="user" style="border-radius: 50%;">
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+        <div class="content" >
+              <div class="start">
+                <!-- Banners -->
+                  <div id="banners">
+                    <div class="ban-1" style="z-index: 3;">
+                        <a href="https://en.wikipedia.org/wiki/BTS" target="_blank"><img src="/images/banners/BTS.webp" alt=""></a>
+                    </div>
+                    <div class="ban-2">
+                        <a href="https://en.wikipedia.org/wiki/One_Direction" target="_blank"><img src="/images/banners/onedirection.webp" alt=""></a>
+
+                    </div>
+                    <div class="ban-3">
+                        <a href="https://en.wikipedia.org/wiki/Devi_Sri_Prasad" target="_blank"><img src="/images/banners/devisree.webp" alt=""></a>  
+
+                    </div>
+                  </div>
+                  <!-- Latest Release -->
+                  <div id="latest-release">
+                    <h2>Latest Release</h2>
+                    <section id="Latest">
+                        <div >
+                            <img src="/images/banners/kesariya.jpg" alt="" >
+                            <span>
+                                <h4><a href="#footer"> Kesariya</a></h4>
+                                <p>sept 4</p>
+                            </span>  
+                            <div class="dropdown">
+                                <label for="btn"><img class="icons" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAPRJREFUSEvtlMsNwjAQRGfhwEdI2B1ABVACVEBKgA7ohBKghKQCKAE6gAo2BwTkAIuMksigJEgRCRf7ZntnxnoamfCnRX/KhQuujbxD7VBXRsCVK0V7Zh43G43Z/fEIelrvbebMrNrAzJzdgEBrHdr3RdpkLhP1lXkuROt0SGTR0Xpj9ia0RbQFMI7v95HINAkv0tqPyw4Ow1CAvjV47Co1NPsL8xJEqzcT62HXAm2Z4FNXqUHJ4FT7Pfg76h2AUWx0iEQmP0FtDE1BCPAE8HPK5cXl8rPKlactLFdlv4Zl7D6QOii/Mhxqh7oyAq5claH9NH4CfE6AH3JgrpsAAAAASUVORK5CYII="/></label>
+                                <input class="check-box" type="checkbox" id="btn" >
+                                <ul>
+                                    <li><img class="icons" src="/images/Icons/play-solid.svg">play now </li>
+                                    <li><img class="icons" src="/images/Icons/plus-solid.svg">Add to queue </li>
+                                    <li><img class="icons" src="/images/Icons/bars-solid.svg">Add to favourites </li>
+                                    <li><img class="icons" src="/images/Icons/circle-info-solid.svg" alt="">Get info </li>
+                                </ul>
+                            </div>     
+                        </div>
+                        <div >
+                            <img src="/images/banners/kesariya.jpg" alt="">
+                            
+                            <span>
+                                <h4> <a href="#footer"> Kesariya</a></h4>
+                                <p>sept 4</p>
+                            </span>   
+                            <div class="dropdown">
+                                <label for="btn-1"><img class="icons" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAPRJREFUSEvtlMsNwjAQRGfhwEdI2B1ABVACVEBKgA7ohBKghKQCKAE6gAo2BwTkAIuMksigJEgRCRf7ZntnxnoamfCnRX/KhQuujbxD7VBXRsCVK0V7Zh43G43Z/fEIelrvbebMrNrAzJzdgEBrHdr3RdpkLhP1lXkuROt0SGTR0Xpj9ia0RbQFMI7v95HINAkv0tqPyw4Ow1CAvjV47Co1NPsL8xJEqzcT62HXAm2Z4FNXqUHJ4FT7Pfg76h2AUWx0iEQmP0FtDE1BCPAE8HPK5cXl8rPKlactLFdlv4Zl7D6QOii/Mhxqh7oyAq5claH9NH4CfE6AH3JgrpsAAAAASUVORK5CYII="/></label>
+                                <input class="check-box" type="checkbox" id="btn-1">
+                                <ul>
+                                    <li><img class="icons" src="/images/Icons/play-solid.svg">play now </li>
+                                    <li><img class="icons" src="/images/Icons/plus-solid.svg">Add to queue </li>
+                                    <li><img class="icons" src="/images/Icons/bars-solid.svg">Add to favourites </li>
+                                    <li><img class="icons" src="/images/Icons/circle-info-solid.svg" alt="">Get info </li>
+                                </ul>
+                            </div>   
+                        </div>
+                        <div >
+                            <img src="/images/banners/kesariya.jpg" alt="">
+                            
+                            <span>
+                                <h4> <a href="#footer"> Kesariya</a></h4>
+                                <p>sept 4</p>
+                            </span>   
+                            <div class="dropdown">
+                                <label for="btn-2"><img class="icons" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAPRJREFUSEvtlMsNwjAQRGfhwEdI2B1ABVACVEBKgA7ohBKghKQCKAE6gAo2BwTkAIuMksigJEgRCRf7ZntnxnoamfCnRX/KhQuujbxD7VBXRsCVK0V7Zh43G43Z/fEIelrvbebMrNrAzJzdgEBrHdr3RdpkLhP1lXkuROt0SGTR0Xpj9ia0RbQFMI7v95HINAkv0tqPyw4Ow1CAvjV47Co1NPsL8xJEqzcT62HXAm2Z4FNXqUHJ4FT7Pfg76h2AUWx0iEQmP0FtDE1BCPAE8HPK5cXl8rPKlactLFdlv4Zl7D6QOii/Mhxqh7oyAq5claH9NH4CfE6AH3JgrpsAAAAASUVORK5CYII="/></label>
+                                
+                                <input class="check-box" type="checkbox" id="btn-2">
+                                <ul>
+                                    <li><img class="icons" src="/images/Icons/play-solid.svg">play now </li>
+                                    <li><img class="icons" src="/images/Icons/plus-solid.svg">Add to queue </li>
+                                    <li><img class="icons" src="/images/Icons/bars-solid.svg">Add to favourites </li>
+                                    <li><img class="icons" src="/images/Icons/circle-info-solid.svg" alt="">Get info </li>
+                                </ul>
+                            </div>                   
+                        </div>
+                        <div>
+                            <img src="/images/banners/kesariya.jpg" alt="">
+                            
+                            <span>
+                                <h4> <a href="#footer"> Kesariya</a></h4>
+                                <p>sept 4</p>
+                            </span>   
+                            <div class="dropdown">
+                                <label for="btn-3"><img class="icons" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAPRJREFUSEvtlMsNwjAQRGfhwEdI2B1ABVACVEBKgA7ohBKghKQCKAE6gAo2BwTkAIuMksigJEgRCRf7ZntnxnoamfCnRX/KhQuujbxD7VBXRsCVK0V7Zh43G43Z/fEIelrvbebMrNrAzJzdgEBrHdr3RdpkLhP1lXkuROt0SGTR0Xpj9ia0RbQFMI7v95HINAkv0tqPyw4Ow1CAvjV47Co1NPsL8xJEqzcT62HXAm2Z4FNXqUHJ4FT7Pfg76h2AUWx0iEQmP0FtDE1BCPAE8HPK5cXl8rPKlactLFdlv4Zl7D6QOii/Mhxqh7oyAq5claH9NH4CfE6AH3JgrpsAAAAASUVORK5CYII="/></label>
+                                <input class="check-box" type="checkbox" id="btn-3">
+                                <ul>
+                                    <li><img class="icons" src="/images/Icons/play-solid.svg">play now </li>
+                                    <li><img class="icons" src="/images/Icons/plus-solid.svg">Add to queue </li>
+                                    <li><img class="icons" src="/images/Icons/bars-solid.svg">Add to favourites </li>
+                                    <li><img class="icons" src="/images/Icons/circle-info-solid.svg" alt="">Get info </li>
+                                </ul>
+                            </div>                   
+                        </div>
+        
+                      </section> 
+
+
+                  </div>
+                  <!-- Popular artists -->
+                  <section id="popular-artists">
+                    <h1 class="pa-heading">Popular Artists</h1>
+
+                    <div class="img-container">
+                        <span class="artist">
+                            <a  href="/Artists/artist.html">
+                              <img src="/images/Artists/ar rahaman.jpg" alt="" class="round">
+                              
+                            </a>
+                            <h3>Ar rahaman</h3>
+                       </span>
+                       <span class="artist">
+                           <a href="/Artists/artist.html" target="_blank" rel="noopener noreferrer">
+                               <img src="/images/Artists/Anirudh-Ravichander-1.jpg" alt=""  class="round">
+                              
+                           </a>
+                           <h3>Anirudh</h3>
+                       </span>
+                       <span class="artist">
+                           <a href="/Artists/artist.html" target="_blank">
+                               <img src="/images/Artists/zaynmalik.jpg" alt=""  class="round">
+                               
+                           </a>
+                           <h3>Zayn malik</h3>
+                       </span>
+                       <span class="artist">
+                           <a href="/Artists/artist.html" target="_blank" rel="noopener noreferrer" >
+                               <img src="/images/Artists/Arjit.jpg" alt="" class="round">
+                               
+                           </a>
+                           <h3>Arjit singh</h3>
+                       </span>
+                       <span class="artist">
+
+                           <a href="/Artists/artist.html" target="_blank" rel="noopener noreferrer">
+                               <img src="/images/Artists/sid.jpg" alt=""  class="round">
+                               
+                           </a>
+                           <h3>Sid sriram</h3>
+                       </span>
+                       <span class="artist">
+                           <a href="/Artists/artist.html" target="_blank" rel="noopener noreferrer">
+                               <img src="/images/Artists/shirleysetia.jpg" alt=""  class="round">
+                               
+                           </a>
+                           <h3>Shirley setia</h3>
+                       </span>
+                    </div>
+                   
+                  </section>
+                <section id="station">
+                    <div class="s-header">
+                         <img src="/images/station/station.jpg" alt=""  class="round">
+                    </div>
+                     
+                    <div class="s-img1 round2 background s-display">
+                                <h3 class="scale">Love</h3>
+                    </div>             
+                    <div class="s-img2 round2 background s-display">
+                            <h3 class="scale">Retro</h3>
+                    </div>
+                    <div class="s-img3 round2 background s-display">
+                            <h3 class="scale">Chill</h3>
+                    </div>
+                    <div class="s-img4 round2 background s-display">
+                        <h3 class="scale">Work</h3>
+                    </div>
+                    <div class="s-img5 round2 background s-display">
+                        <h3 class="scale">Rock</h3>
+                    </div>
+                    <div class="s-img6 round2 background s-display">
+                        <h3 class="scale">Pop</h3>
+                    </div>
+                </section>
+                <!-- Genres -->
+                <section id="genre">
+                    <div class="g-img1 background s-display" >
+                        Party
+                    </div>
+                    <div class="g-img2 background s-display">
+                        Electronic
+                    </div>
+                    <div class="g-img3 background s-display">
+                        Road Trip
+                    </div>
+                </section>
+                <!-- Telugu songs -->
+                <section id="songs">
+                    <h1>Telugu Songs</h1>
+                    <div class="song-container">
+                        <div>
+                            <img src="/images/Telugu/naatu.jpg" alt="">
+                            <h3>Naatu Naatu</h3>
+                            <p style="color: grey;">Mar 15,2022</p>
+                        </div>
+                        <div>
+                            <img src="/images/Telugu/sitaramam.jpg" alt="">
+                            <h3>Sita ramam</h3>
+                            <p style="color: grey;">Mar 15,2022</p>
+                        </div>
+                        <div>
+                            <img src="/images/Telugu/toofan.jpeg" alt="">
+                            <h3>Toofan</h3>
+                            <p style="color: grey;">Mar 15,2022</p>
+                        </div>
+                        <div>
+                            <img src="/images/Telugu/vikram.jpg" alt="">
+                            <h3>Vikram</h3>
+                            <p style="color: grey;">Mar 15,2022</p>
+                        </div>
+                        <div>
+                            <img src="/images/Telugu/kalavathi.webp" alt="">
+                            <h3>Kalavathi</h3>
+                            <p style="color: grey;">Mar 15,2022</p>
+                        </div>
+                        <div>
+                            <img src="/images/Telugu/arabic.jpg" alt="">
+                            <h3>Arabic kuthu</h3>
+                            <p style="color: grey;">Mar 15,2022</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Hindi songs -->
+                <section id="songs">
+                    <h1>Hindi Songs</h1>
+                    <div class="song-container">
+                        <div>
+                            <img src="/images/Hindi/deva deva.jpg" alt="">
+                            <h3>Naatu Naatu</h3>
+                            <p style="color: grey;">Mar 15,2022</p>
+                        </div>
+                        <div>
+                            <img src="/images/Hindi/3idiots.webp" alt="">
+                            <h3>Sita ramam</h3>
+                            <p style="color: grey;">Mar 15,2022</p>
+                        </div>
+                        <div>
+                            <img src="/images/Hindi/merijaan.jpg" alt="">
+                            <h3>Toofan</h3>
+                            <p style="color: grey;">Mar 15,2022</p>
+                        </div>
+                        <div>
+                            <img src="/images/Hindi/rangi.webp" alt="">
+                            <h3>Vikram</h3>
+                            <p style="color: grey;">Mar 15,2022</p>
+                        </div>
+                        <div>
+                            <img src="/images/banners/kesariya.jpg" alt="">
+                            <h3>Kalavathi</h3>
+                            <p style="color: grey;">Mar 15,2022</p>
+                        </div>
+                        <div>
+                            <img src="/images/Hindi/afat.jpg" alt="">
+                            <h3>Arabic kuthu</h3>
+                            <p style="color: grey;">Mar 15,2022</p>
+                        </div>
+                    </div>
+                </section>
+              </div>
+              
+        </div>
+        <aside id="Queue" class="example">
+            <header class="queue-header">
+                <h2>Queue</h2>
+
+                <div class="aside-dropdown">
+                    
+                    <label for="queue-check"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAPpJREFUSEvtlNENgjAQhu8IPkEjIziCI7CJMoIPMgQ8OIKM4giO4AgQ6JMkZy6xCSHSlhLFh/aN5O6+/F+PIqx0cCUuePDPzHvVXvXXDPz3csVlnHbn7mYT37bWmFgU4khAVwKqZC4zHVyUoiKiAwJmbd5WulotOLkkSf/sHwCw5SE6uIK+YU24CXf1qa6n4MbEURHtEZA1T8LHUAJKZS7vzolVow7uAuW5xsQ6eIAB8p0qvTZJ1TxrMDeMkw9UNnOgsxJPJQeA2VAn8Cg5b7pxkT4t2SzVwwGsnb9N2+v8O9m8Vi41zoldYMMeD15q0Lrfq7ZWtbRwNdUvLsp5H9tKHwYAAAAASUVORK5CYII="/></label>
+                    <input type="checkbox" name="" id="queue-check">
+                    <ul>
+                        <li>Recent</li>
+                        <li>Favourites</li>
+                    </ul>
+                </div>
+            </header>
+             <div class="aside-content">
+               
+                <div class="aside-list">
+                    <span>01</span>
+                    <img src="/images/Telugu/arabic.jpg" alt="">
+                    <div>
+                        <h3>Arabic kuthu</h3>
+                        <p>Anirudh</p>
+                    </div>
+                </div>
+                <div class="aside-list">
+                    <span>02</span>
+                    <img src="/images/Telugu/naatu.jpg" alt="">
+                    <div>
+                        <h3>Naatu Naatu</h3>
+                        <p>Rahul sipligunj</p>
+                    </div>
+                </div>
+                <div class="aside-list">
+                    <span>03</span>
+                    <img src="/images/Telugu/kalavathi.webp" alt="">
+                    <div>
+                        <h3>Kalavathi</h3>
+                        <p>Sid sriram</p>
+                    </div>
+                </div>
+                <div class="aside-list">
+                    <span>04</span>
+                    <img src="/images/Telugu/sitaramam.jpg" alt="">
+                    <div>
+                        <h3>Sita ramam</h3>
+                        <p>SPB</p>
+                    </div>
+                </div>
+                <div class="aside-list">
+                    <span>05</span>
+                    <img src="/images/Telugu/toofan.jpeg" alt="">
+                    <div>
+                        <h3>Toofan</h3>
+                        <p>Ravi Basur</p>
+                    </div>
+                </div>
+                <div class="aside-list">
+                    <span>06</span>
+                    <img src="/images/Telugu/vikram.jpg" alt="">
+                    <div>
+                        <h3>Vikram</h3>
+                        <p>Rahul</p>
+                    </div>
+                </div>
+                <div class="aside-list">
+                    <span>07</span>
+                    <img src="/images/Hindi/3idiots.webp" alt="">
+                    <div>
+                        <h3>3 idiots</h3>
+                        <p>ameer khan</p>
+                    </div>
+                </div>
+                <div class="aside-list">
+                    <span>08</span>
+                    <img src="/images/Hindi/deva deva.jpg" alt="">
+                    <div>
+                        <h3>Deva Deva</h3>
+                        <p>Ranveer</p>
+                    </div>
+                </div>
+                <div class="aside-list">
+                    <span>09</span>
+                    <img src="/images/Hindi/merijaan.jpg" alt="">
+                    <div>
+                        <h3>Meri jaan</h3>
+                        <p>Alia</p>
+                    </div>
+                </div>
+                <div class="aside-list">
+                    <span>10</span>
+                    <img src="/images/Hindi/afat.jpg" alt="">
+                    <div>
+                        <h3>Afat</h3>
+                        <p>vijay</p>
+                    </div>
+                </div>
+                <div class="aside-list">
+                    <span>11</span>
+                    <img src="/images/Telugu/toofan.jpeg" alt="">
+                    <div>
+                        <h3>Toofan</h3>
+                        <p>Ravi</p>
+                    </div>
+                </div>
+                <div class="aside-list">
+                    <span>12</span>
+                    <img src="/images/Telugu/arabic.jpg" alt="">
+                    <div>
+                        <h3>Arabic kuthu</h3>
+                        <p>Rahul</p>
+                    </div>
+                </div>
+                
+                
+             </div>
+        </aside>
+        <footer id="footer">
+            <div class="current-song">
+                <div class="curr-img">
+                    <img src="/images/Telugu/naatu.jpg" alt="">
+                </div>
+                <div class="-curr-song-name">
+                    <h3>Naatu Naatu</h3>
+                    <p>rahul</p>
+                </div>
+                <div class="curr-icons">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAchJREFUSEvlluFRwzAMhd+bAJiAMgFlA5gAmAA6ATAB7QTABJQJ6AawAbBBNwAmEKeeHFzHTqzmR7nDf3q9POvzkyUlxJYWt8TF3waLyEgzQ3LZlaFa3SpWKZCIHAO4BTAGsGu6LwCvAB5I6i9MdwVA9bHuHcANSf1trSxYRKYG7TJ4bw+ve+pkSnKWalpgEZkDuDDhNwD9v3Jnri4B7CSBgi5chWbpLNLNSU7iPWtgEdGgjyb4UBBJTW+zRETTqQc5dOomJNXEaqVgPfE+AHUwSqFhk8GbVPfoNKZmaEnyoAUWEU3Pmz1YO13PHXY+TrJ4FIqtcSwiWiR3FqURDIHq3pKhGBxX8l4pfd6D2LV82r4ZSeX83rGIaBU+m+Ak9KkXlOqtz1/SuLFjrdZwsgXJ86FQS/UCwKnFajKZVnXcw4MLLCmsJ5Lartl20pmsIy4MiI3hCVTbcxzP+tzk0pkb7kRP54YnUI3RqpnSrI4nmAuegWYP3vV2csNroa2RmWmFargH2gu2duiFe6FV4D74JtBqcAluVxNeo64idH3sZdzFZeFqOxe44NzlNDu5amdz4tzldBDYnFd98pbMuFNdm5U+3f8D/wBGouQf9IPDQwAAAABJRU5ErkJggg=="/>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAApVJREFUSEvFls1x2zAQhd9SM7RvdiqIU0GcCiJVELuCOBVE8IEYnWyfNOAFTgWxKohcQeIKQlWQdBDqaHsGyCwJiYRI8Uc6SDM6aATg231YvF3CgT50IC56g/V0OrREJ0R0zkFbaxMEQXodRU99kugE1nF8DmO+gugCwOkWQApr57D2Tkwmf9uCaARrrU/x/KxBdNV2kPe/tQ84OhJCiHTbvq3gLEtrfwA4K22eAUhgTILj44QPztYB/L2AtZ9KaxMQfRFRlNTBa8EO+rMk6xOMuRWTya+mzPV0eobB4L4UQAqiUR28As7kfXn57WWaR/7QVW6t1BiAdusThOFoU/YqWCkGfK5A9oPPhJRenXhgJzFnCxA9AuAq/b4Ooi88jnl/fu/GvCtXuw8uZ+sW6ji+2hWe3XkQ/HGBe1lvgrn8TwB4i/aCF1mnQso3K/XWYHYkBAFXMstcKaZd4d4+Y0arl1GAlWJX4ndbuY9VlLvAvboBLoWU8yy39aFK3QK44d9CyiZj6X3nWinrOHdCSub0B/OmPpk7X/jXBC6kJvqwzer6yu7VTq3ULcVV51pdMvdcrK64MgmVyp8T0aOIIlag9dMG18VzWgop1y211UBayQ13viFzg4HkrTC3TGAupLzsAt5WcLCW/fljq2U6uctNQggp73eGFxubm0QGztsiN++3/NsSja+j6Nse8AXCcNjaFp1sLDk3ffbtTHYYI9pmqexOB4MbWDt0+5YgGnYaBErvlOFsb1nmqwAsMCeiBR/G6tjX1/c8+lAOK7+EBc9qvUafNTyXne+4Ohg0az9DGI53GvbK57q+yh7LGa3k30Qv3ZXwbLbfeFuXlHubbATZQO+mzrRtENw8q9NA37Wi+6w7GPg/hEmdLjI9h3sAAAAASUVORK5CYII="/>
+                </div>
+            </div>
+            <form action="" class="footer-form">
+                <div>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAj9JREFUSEvllVFu00AQhmci80xvAJyAcIImJ0CcAPsEUKmJxEt23Bek5KHlBIQbhBPUNyA5AXAD9z34R+Pupuvt2g5qrT6wT5Y93m/m35l/mZ5o8RNxaRDwUmQ8F9l2FTUIeJXnBRFdz4zJ2+BDgk/BvHlWVdmZSBkmMCjYwrYAslD6A3h5cZEy0XuXGYjKP1V19knkV18D6pnSaGSY6KSOBcbknm9/LhnIzkU2bq8DeJXnQkQmgGwTYBqTysVdipzsma+JSGGdaw+8coU0KwZS+6dm/tpJ1QaPQHdanU3iuZfFDQNptOIw1VWer8lJz1zMFotpJEZHxiX4bWZMnbjt6lMbvwOQtp5xTCMfzsD6XCRzcY3EiA7QAPw9AdJ/7morpc5kXZWDB9BdAkz8zW3FxcwY7Zvo6h2nEE7MBQETJ2MI1feP5lwWrmPlN8zvBBh3dXxXi/dW7J2pP243ACZ9fvxgsErHzD/sRgeoKjFYxRaqBuFcaToTKWqnAy4BTMPK9dt8sdBxbF2dUodQMGe64WeRlwnzT7truQfe+NZadzUzkqp616ZIKzh0JQd1JdiKv8bczTOQMqZIPZoxLe5Bib7MjfkYxi7z/IqJPoTwwLkoTLoBbrkkNKbhSp3W2nWmgfP13U6dUG/U9Lp729VMRNQYwTuwyISYnSMRMZdJVa2PGZf6aEajlIDbzifSy+KFl8g9Wz3aQHqqaXwOzjiq2qDgWFO5DIcCbwi4UqNpU2oQ8DFWOgj4mH74/8B/AaOXXi7K4r3RAAAAAElFTkSuQmCC"/>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAR9JREFUSEvtlcFtAkEMRf8fkXPoIKQC6CDQQToIHRAk9jzmFCkgQQekg6QDKAE6yT2AkVEizYFlB7Q75LB7Hdtv/Mf+S9zo4424qMHJlK+l/j9Sz0SaP8617UZ3+/1mKPKddzuLPXce5hW+8USkC3J5TFLtZSKrU+B3kY4jP0feP8bIVgp4Mh4LAG/AzPvCmhZXGHSu4zeRVsO5BVS7f11WDp6KPCu5ANAMpa0M3ADWO2CmZP/UW1YDJodUHSjQyhugysBQfQXwkBas2jOpt+QcwEs6qYM9/h2uDwD3SYYrNJDjOpEGf0q2TmGXyQ0khJtlkvzKvM+d+Iu82ox/C3QsyQYr2U8ixvCviSn06muKxuTU4BiVSomppS5FxpgiBzY/lB8jw2FmAAAAAElFTkSuQmCC"/>
+                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAoxJREFUSEvNVtFx2kAQ3ZX5D6kgTgUmFQQqCK4guILAjMVMfnR3/GTGygxOBTEVWK4gdgUWFSQliO9gvcxKJ3wSIgh9GN/n3e293be3b5fpSIuPhEsHA4da94n5DRH1rNMxmJNpEDwcEkQj4Cutex7RFzAPiai7AyBhIPpLZL5q/WefE/8FnmvdfSKag3m07yH3nIGbE6LJROtkl91O4CxK5lsQnTrGCzDfU5rGU61j2Zd75Hk9BoSNT87dGMBFca/qQC2wPMbMvxxa79bAeB+F37Q+7TBfOw4kAAZ14FvAGb3Mj5tImSd+EMhjjVc4m40JmBefrwMMqrRvAYfG3BDR58yoBWjhXQV84StV+iclYEvxozW+85WSvLVeoTFRQfsaeO+mqgTsRlu92Abd5vy3tS1FXQWW7y/isEVN9oONuWbmMwDLqVLjXXuuk07Uia/U2+JsA2wVSX4ygfliGgSS69IKjbknoo9E9OAr1ZfDuj3X6Go2GzHwM9sDBr7W8sazZH7Xegjm2/wcH+pKoBVwXprZv2Hg/FJryfszcGiMJiIlm75StfXdBtiyAsuC8ZUSnFcAfDyq83b38p/L5qIop1rxyMqJqAeiuFROlb0d5bTyldq01NchIK5kgjmaBsF5G8Xa6HVTybR0v3yTEGBpi2tmafLvbL2NL5X6cUjklc607AD9vW0x099cbUTaRLdFQqOnNJ00GQROPG9upxExXQHoNxoEisgsuMhbFnnhgAdEqTQJZ/TxmM9S5qEDKNeXAEYHjT4FkKVdpo98MGi+Fh1g3GrYczFsXxWNlcEgo79mrYgoWgN6X0pKWt00GGmfTNQFczbQMxCDKCnaXdN3Gg30TR875N7RgP8BwWG5LlwNtLsAAAAASUVORK5CYII="/>
+                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAQpJREFUSEvtlcFtwkAQRf9sGqCDUEpKIB2YCuxICHEig31jfDCdJBUAHZAOoAM4G2fQWhyiCGJrJcY5eG8rzfrNPs/MEjpa1BEXPdjMfK/6/6jmJBlwURz/yohns2FVVc8+JhPZtsm+8R/zZPJSEcVPZTm+l8B8OmWovntgKtL4TR/XGOTB30RrAEen+sp5vvl9o0eDax4RFYvl8u0n3AR8Be4cMGaRnd9bgj3PFxynIitrcH15BT4IOACIH1Vc97rkE8DeEnxSVc7yvLBTrfrliCLr4lqlIollO52c6sh6gCSuLCPbkdnykcD5PPT6bxm51Q6Ns7rNSxMS04NDrAWd6VUHaQs51JnqC7mSrx+graFjAAAAAElFTkSuQmCC"/>                  
+                      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAVZJREFUSEvtldFtwjAQhu9ieO8GMEI36AqwAd0gkTDihWDgBcWR6hFgg47QbtBuwAjpM0mucoojhAKKk9CoavyWyL7v7vcv/wgtLWyJCx3415RvX2oxnw8pSZYpwPBOY0eMMU9stwddP5/Yn80EEC3vBM3KEpG3CUN1C/zecANPWT3E1ToIxFXwWspG797nnDpwobk6qes6/O+aa8H5ZCPlzlaB2hP7nL8RALHjcSyUiso20AgYAPQrdHAAxkLKjzLwJsGaFxGAV0b60uAyU5g9iKhWQeCZ7xxSVKTorV5Mpy4ivthAT3u/HMYeTdzdAhPAs1Eof7mE6z4k/f4IEa/nMdEEAAZ5c0SfTq83MlD9P4vXgkVpGrE43hlTWqWQdvXJXDpc904cuzbuPu+nEvg80CtczU9C2hz0OX91iJQIQz15rWUF1j6oKu1ll1bgWiNeHP5/4G+VWfofgTI04gAAAABJRU5ErkJggg=="/>                </div>
+                
+                <input type="range">
+            </form>
+
+            <div class="extras" >
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAUdJREFUSEvtVstRw0AM1fON5ZB1BykhHRA6oIOkA+ggoQOogBbogFABuBI5M/kcxcjj9Wwyi2MWL+bgvdle6elJT5JBAx0MhEsj8J9lPlmqj8xzAV6IaOrYiMjjdZ6v9bkBPjIvBVj8lrKx9lZ97JnXAFa+vyBw6GJMEMbaiozvTwH1XUa0ucrzTYjxMgbMtzHWzs+BXTD+vWQ19hn/T+CU4mplnFJcrcA141Fc0d3VWdU/EhdQmMnkwY9qxzzLsmxBIjMiKonIElHV032K690NCnVcB61zOXj6Exfw6RhXTIGPtpokGSBd2jAJ8KEsdejfRDOOFddhu30ikfsW4MJYq4I7Oc2S6JIyz7IRV73w374FBp7POyB+LXriUictrINsT4CjJ0VtuGe+A6C9rfUuROTV/eaEfCfbx5eIjMCXMtTb98FS/QWNYa0fN6dm3AAAAABJRU5ErkJggg=="/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAPVJREFUSEvtlsENwjAMRe2cqMQBb9AN6AgwCYwAk8AIMAmMUDZgA3NAKqcEpQoHIGrdJlCBkmNk+TvP31YQBjo4kC4k4a+Rb0VdMc8M4sFWhMbMM6JjjOp+X7hizkGpRU1D631GdG4iE+3FXVuShN/a4kN4ZS4U4qZupzHrMVEZhNpnEF9C6Z3YXNKE0jhmnowApraAG8CJiC6PYp7MJU0YEvffwg514VCXTahzDbC0gQpgZ7dPDKw+k/VaIG6ctm6cVsHj5KtMOp/SOK+5krAlIEVot96rMcWbKwR1119JL1d3Fek1TjFEknD9Y/0Uyra8gwnfAV0spi7JjWHrAAAAAElFTkSuQmCC"/>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAVZJREFUSEvtlt1tgzAUhc9Fqio1lYonKKO0EzSdIGSSphtkgzJCskk6ieGBJnnhVCa4smiggZqgSPGjsf1x7r9gpCUjcXGZYK11eANE90ptulqut+Jc66mIfAAISb5OlFp1gXcGG5W3B+DUgki+T5RaDAZ2VbqQwcDHVEJkDfLF/IAX8FbrCMCjoyiiyNL40uwJkBVkbHz6lab0As6zLBFy1ugrkfW+KGKlVGrOeAFvtY55CJpfy1XpfvQCzrVeiMhbaU7y2QXsgI1VOSj4LgxPSjPviq/gpii/mrpXra6l01MtnT4HS6e2AgIgJTmvtz4vPjYK/yyZwGpPzr2WTGvaqkmYRmFXBJElgYdq40e9N8VNwVG2xSBIbBuszpmJoxwGvLTFtsg0g0Agkjjqy+ODgw3kmPqzgK1FXPVnGfZcV4wy3napUg3DxX+f6Hf/pIbf7+n2W9/3dSoujD6pFAAAAABJRU5ErkJggg=="/>
+                <input type="range" >
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAahJREFUSEvtVsFRAkEQnMaHolbJhmAEGgJkoBloBhiBGIFkoBloBhACZGAGe1SpwAPa2qtb61x3j7nTEh7u92a2b3p7pgeypYMt4cpuAFtrOwciZzEWViKzY2MmVQy9Wnu+J3ISi1mITI0xmf/2peK5tV0CozARIrMV2VUBA2NGwEH22saM1cBaUH9hXnUEvDYwybsjYwZ1RPhm7QDAbTmnNrBLBnndNuZRAz639orAw7fn0lDt6F2Tw/Jfa8BDUMdWC+i7N99YsQDPXkjhRVXgqVj/5kJeJMXlghxFZfUGF04PO508JjzvWeZaLW/F8Adj96oGSAHeX5Ldci+Wwd0M2AfGIIcaPaiANaKqG/MPXJexxvG7T7VTbUrRvmxNTNQkUrwV7XS/Jnsph3K92gJGIG9qt5NigGRL8jSsPPdx4MXbYe0BUvjxk6/st0ZmwcSlxo8zAEOSn3bYxCQADEj2RaSz0SSiG8hf2WJZZNtcBLIqNYed4NXt6P3xBiIiKvAUaGGV6WWvWG+jfrsSyVRbZlCpr3ohMkmut40Hb4PE3Z/VDYqqTPkAQbRnLh0S208AAAAASUVORK5CYII="/>                
+
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
